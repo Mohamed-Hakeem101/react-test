@@ -1,0 +1,35 @@
+.table-div {
+    width: 100dvw;     /* Using dvh (dynamic viewport width) for every devices */
+    height: 95dvh;    /* Using dvh (dynamic viewport height) for every devices */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 5%;
+}
+
+.table-div .create-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin: .6rem 0;
+    font-size: .9rem;
+}
+
+.table-div table>thead{
+    background-color: rgba(25, 118, 210, 0.807);
+}
+.table-div thead th{
+    color: #fff !important;
+}
+.table-div .table-icons-box .table-icons{
+    cursor: pointer;
+}
+.table-div .table-icons-box .edit-icon{
+    color: rgba(25, 118, 210, 0.738);
+}
+.table-div .table-icons-box .delete-icon{
+    color: rgba(210, 44, 25, 0.718);
+    margin-left: 6px;
+}

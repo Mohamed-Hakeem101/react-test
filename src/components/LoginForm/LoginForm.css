@@ -1,0 +1,39 @@
+.form-outer-div {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: rgb(25, 118, 210);
+}
+
+.form-outer-div form {
+    min-width: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #fff;
+    border: 1px solid rgb(25, 118, 210);
+}
+
+.form-outer-div form>h5{
+    color: rgb(25, 118, 210);
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-outer-div form>p {
+    color: red;
+}
+
+.form-outer-div #success-alert{
+    position: absolute;
+    top: 1rem;
+    background-color: rgba(1, 116, 1, 0.061);
+}
